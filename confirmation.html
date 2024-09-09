@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent your favourite car</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/confirmation.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" alt="Ridex logo">
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <h3 class="getquotetext">Reservation</h3>
+        <div class="blocks">
+            <div class="left">
+                <p>Start Date</p>
+                <div class="date-input-container">
+                    <i class="fas fa-calendar-alt date-icon"></i>
+                    <input class="date-input-field" type="text" id="startDate" placeholder="mm/dd/yyyy">
+                </div>
+                <p>End Date</p>
+                <div class="date-input-container">
+                    <i class="fas fa-calendar-alt date-icon"></i>
+                    <input class="date-input-field" type="text" id="endDate" placeholder="mm/dd/yyyy">
+                </div>
+                <p>Car Model</p>
+                <!-- Display the car details instead of dropdown -->
+                <div id="carDetailsContainer">
+                    <h4 id="carModel"></h4>
+                    <p id="carDescription"></p>
+                    <p>Price: $<span id="carPrice"></span></p>
+                    <img id="carImage" src="" alt="Car Image" style="width: 100%; max-width: 300px;">
+                </div>
+            </div>
+            <p>Total Days</p>
+            <div class="total-days-container">
+                <span id="totalDays">0</span> days
+            </div>
+            <p>Total Cost</p>
+            <div class="total-cost-container">
+                $<span id="totalCost">0.00</span>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button type="button" onclick="calculateCost()" class="button">Calculate Cost</button>
+        <button type="button" onclick="calculateCost(),confirmBooking()" class="button1">Confirm Booking</button>
+    </div>
+    </div>
+    <dialog id="confirmationDialog">
+        <div class="modal-container">
+            <div class="modal">
+                <div class="checkmark-container">
+                    <div class="checkmark">&#10004;</div>
+                </div>
+                <h2>Thank You!</h2>
+                <p>Your booking has been confirmed. Enjoy your ride!</p>
+                <p id="carDetails"></p>
+                <button onclick="closeConfirmation()" class="ok-button">OK</button>
+            </div>
+        </div>
+    </dialog>
+    <script src="./assets/js/confirmation.js"></script> <!-- Link to your confirmation.js file -->
+    <script>
+        $(function () {
+            $("#startDate, #endDate").datepicker({
+                dateFormat: 'mm/dd/yy',
+                minDate: 0
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const carModel = getUrlParameter('car');
+
+            if (carModel) {
+                fetch('/assets/data/cars.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const car = data.cars.find(c => c.model === carModel);
+                        if (car) {
+                            document.getElementById('carModel').textContent = car.model;
+                            document.getElementById('carDescription').textContent = car.description;
+                            document.getElementById('carPrice').textContent = car.price;
+                            document.getElementById('carImage').src = car.image;
+                        }
+                    })
+                    .catch(error => console.error('Error fetching car data:', error));
+            }
+        });
+
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        function calculateCost() {
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const carPrice = parseFloat(document.getElementById('carPrice').textContent);
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            if (startDate && endDate && !isNaN(carPrice)&&start.getTime() < end.getTime()) {
+                const start = new Date(startDate);
+                const end = new Date(endDate);
+                const timeDiff = Math.abs(end - start);
+                const totalDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                const totalCost = totalDays * carPrice;
+
+                document.getElementById('totalDays').textContent = totalDays;
+                document.getElementById('totalCost').textContent = totalCost.toFixed(2);
+            } else {
+                alert("Please ensure start date and end date are selected properly.");
+            }
+        }
+
+        function confirmBooking() {
+
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const carModel = document.getElementById('carModel').textContent;
+            const carDescription = document.getElementById('carDescription').textContent;
+            const carPrice = document.getElementById('carPrice').textContent;
+            const totalDays = document.getElementById('totalDays').textContent;
+            const totalCost = document.getElementById('totalCost').textContent;
+
+            const booking = {
+                startDate,
+                endDate,
+                carModel,
+                carDescription,
+                carPrice,
+                totalDays,
+                totalCost,
+                status: "pending"
+            };
+
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+
+            if (start.getTime() === end.getTime()||start.getTime() > end.getTime()) {
+                alert("Choose start date and end date properly");
+            } else if (startDate && endDate && !isNaN(carPrice)) {
+                // Retrieve existing bookings from local storage
+                let bookings = JSON.parse(localStorage.getItem('bookings')) || [];
+
+                // Add the new booking to the array
+                bookings.push(booking);
+
+                // Save the updated bookings array back to local storage
+                localStorage.setItem('bookings', JSON.stringify(bookings));
+
+                // Show the confirmation dialog
+                const dialog = document.getElementById('confirmationDialog');
+                dialog.showModal();
+            } else {
+                alert("You can't confirm booking without providing all the details");
+            }
+        }
+
+        function closeConfirmation() {
+            const dialog = document.getElementById('confirmationDialog');
+            dialog.close();
+        }
+    </script>
+</body>
+
+</html>

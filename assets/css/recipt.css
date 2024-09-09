@@ -1,0 +1,134 @@
+body {
+    background-color: #f0f8ff; /* Marvel light blue closer to white */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Change to flex-start to align items from the top */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 1px; /* Add some padding at the top */
+    padding-bottom: 65px; /* Add some padding at the bottom */
+}
+
+.receipt-container {
+    width: 700px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Ensures there's space between the container and the bottom padding */
+    border-radius: 8px; /* Adding a slight border radius for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.recipient-invoice {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.car-photo {
+    flex: 1;
+    text-align: right;
+}
+
+.car-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.invoice-info {
+    width: 250px; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.invoice-number {
+    background-color: #008CBA; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.invoice-dates {
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 10px;
+    border-top: 1px solid #008CBA;
+    border-bottom: 1px solid #008CBA;
+}
+
+.invoice-total {
+    background-color: #008CBA; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.invoice-total p {
+    margin: 0;
+}
+
+.service-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.service-table th, .service-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.service-table th {
+    background-color: #008CBA;
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.refund-button {
+    background-color: #f08080; /* Light red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}

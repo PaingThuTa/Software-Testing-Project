@@ -1,0 +1,1748 @@
+{
+    "cars": [
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC V \u0e1b\u0e3508-14",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/319/01_1.jpg"
+        },
+        {
+            "model": "NISSAN ALMERA 1.2 E SPORTECH \u0e1b\u0e3511-20",
+            "description": "Sedan, 5 People, 13km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/319/00_1.jpg"
+        },
+        {
+            "model": "NISSAN NAVARA NP300 2.5 E KING CAB CALIBRE KING CAB",
+            "description": "Pickup truck, 4 People, 11km / litre, Manual",
+            "price": 230,
+            "year": 2017,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/99_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA3 2.0 C \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 4Dr",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/98_1.jpg"
+        },
+        {
+            "model": "TOYOTA VIOS 1.5 G \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 14km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/96_1.jpg"
+        },
+        {
+            "model": "NISSAN MARCH 1.2 E \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Hatchback, 5 People, 16km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/95_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 E PRERUNNER DOUB PRERUNNER DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 230,
+            "year": 2017,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/94_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA3 2.0 S SPORTS \u0e1b\u0e3514-19 5Dr",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/51_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E350e 2.0 EXCLUSIVE W213 \u0e1b\u0e3516-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/08_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC V+ \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/93_1.jpg"
+        },
+        {
+            "model": "TOYOTA MAJESTY 2.8 PREMIUM \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/92_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 E SPORT ALTIS \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/91_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 MID PRERUNNER DO PRERUNNER DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/90_1.jpg"
+        },
+        {
+            "model": "VOLVO S90 2.0 HYBRID INSCRIPTI \u0e1b\u0e3516-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/88_1.jpg"
+        },
+        {
+            "model": "BMW X5 xDrive45e M SPORT G05 \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 290,
+            "year": 2023,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/87_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 2.0 HYBRID \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/86_1.jpg"
+        },
+        {
+            "model": "BENZ VITO 116 CDI \u0e1b\u0e3506-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/85_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E200 COUPE CGI W207 \u0e1b\u0e3509-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/84_1.jpg"
+        },
+        {
+            "model": "TOYOTA CAMRY 2.5 HV PREMIUM \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/83_1.jpg"
+        },
+        {
+            "model": "BENZ CLS-CLASS 300d W257 \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/82_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 2.0 eHEV TECH \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/79_1.jpg"
+        },
+        {
+            "model": "SUZUKI ERTIGA 1.5 GX \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/78_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 02-12 2.5 i-TEQ HI-LANDER CAB-4 02-1",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 160,
+            "year": 2010,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/77_1.jpg"
+        },
+        {
+            "model": "MG 5 1.5 X SUNROOF \u0e1b\u0e3521-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/76_1.jpg"
+        },
+        {
+            "model": "TOYOTA VIOS 1.5 E \u0e1b\u0e3503-07",
+            "description": "Compact car, 4 People, 14km / litre, Automatic",
+            "price": 130,
+            "year": 2007,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/75_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.4 EL 4WD \u0e1b\u0e3517-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/74_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI TRITON 05-18 2.4 MIVEC PLUS DBL C PLUS DOUBLE CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/73_1.jpg"
+        },
+        {
+            "model": "NISSAN NAVARA NP300 2.5 V KING CAB CALIBRE KING CAB",
+            "description": "Pickup truck, 4 People, 11km / litre, Manual",
+            "price": 260,
+            "year": 2020,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/72_1.jpg"
+        },
+        {
+            "model": "PORSCHE TAYCAN EV TURBO \u0e1b\u0e3520-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Electric, 4 People, 400km / charge, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/71_1.jpg"
+        },
+        {
+            "model": "BENZ CLS-CLASS 350 W218 \u0e1b\u0e3511-18",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/70_1.jpg"
+        },
+        {
+            "model": "NISSAN JUKE 1.6 V \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/69_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E220d 2.0 AMG SPORT W213 \u0e1b\u0e3516-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/68_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 Sports High Conn \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 5Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/67_1.jpg"
+        },
+        {
+            "model": "BENZ GLA-CLASS 250 W156 \u0e1b\u0e3514-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/66_1.jpg"
+        },
+        {
+            "model": "NISSAN ALMERA 1.2 E SPORTECH \u0e1b\u0e3511-20",
+            "description": "Sedan, 5 People, 13km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/65_1.jpg"
+        },
+        {
+            "model": "TOYOTA VIOS 1.5 S \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 14km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/64_1.jpg"
+        },
+        {
+            "model": "VOLKSWAGEN CARAVELLE 2.0 BITDI \u0e1b\u0e3506-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/63_1.jpg"
+        },
+        {
+            "model": "TOYOTA CHR HV Hi \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/62_1.jpg"
+        },
+        {
+            "model": "BENZ A-CLASS A180 W176 \u0e1b\u0e3512-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/61_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 S Leather \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 4Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/60_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E250 1.8 CGI W212 \u0e1b\u0e3510-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/59_1.jpg"
+        },
+        {
+            "model": "ISUZU MU-X 3.0 (DVD Navi) \u0e1b\u0e3513-20",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/58_1.jpg"
+        },
+        {
+            "model": "NISSAN X-TRAIL 2.5VL 4WD \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/57_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E200 CGI W212 \u0e1b\u0e3510-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/56_1.jpg"
+        },
+        {
+            "model": "PORSCHE BOXSTER 2.0 BOXSTER",
+            "description": "Convertible, 2 People, 8km / litre, Manual",
+            "price": 230,
+            "year": 2017,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/55_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 1.5 TURBO EL \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/54_1.jpg"
+        },
+        {
+            "model": "BENZ CLS-CLASS 53 AMG W257 \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/53_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 SPORT PREMIUM X \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/52_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 E PRERUNNER DOUB PRERUNNER DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 250,
+            "year": 2019,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/51_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E300 BLUETEC HYBRID W212 \u0e1b\u0e3510-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/50_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC RS \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/49_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 3.0 V6 \u0e1b\u0e3503-08",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 100,
+            "year": 2004,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/48_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI TRITON 05-18 2.5 GLX DOUBLE CAB DOUBLE CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/47_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 2.4 V \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/46_1.jpg"
+        },
+        {
+            "model": "NISSAN TERRA 2.3 VL 2WD \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/45_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 CAB-4 1.9 Ddi L DA CAB-4 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/44_1.jpg"
+        },
+        {
+            "model": "TOYOTA AVANZA 1.5 S \u0e1b\u0e3511-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/43_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ATIV 1.2 SPORT PREMIUM \u0e1b\u0e3517-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/42_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI SPACE WAGON 2.4 GLS MIVEC \u0e1b\u0e3504-11",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/40_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.4 GT Premium \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/39_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 S (AS) FD \u0e1b\u0e3505-12",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/37_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.4 EL 4WD \u0e1b\u0e3506-12",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/36_1.jpg"
+        },
+        {
+            "model": "ISUZU MU-X 3.0 ULTIMATE 2WD \u0e1b\u0e3520-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/35_1.jpg"
+        },
+        {
+            "model": "TOYOTA INNOVA 2.0 V \u0e1b\u0e3511-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/34_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 E NAVI FB \u0e1b\u0e3512-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/33_1.jpg"
+        },
+        {
+            "model": "TOYOTA CAMRY 2.4 Q \u0e1b\u0e3502-06",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 100,
+            "year": 2003,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/32_1.jpg"
+        },
+        {
+            "model": "NISSAN NOTE 1.2 E \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/31_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 Sports High Conn \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 5Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/30_1.jpg"
+        },
+        {
+            "model": "HONDA CITY 1.5 SV i-VTEC \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/29_1.jpg"
+        },
+        {
+            "model": "HONDA BRIO AMAZE 1.2 SV AMAZE",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/28_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 EL FC-FK \u0e1b\u0e3516-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/27_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C200 CGI W204 \u0e1b\u0e3507-14",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/26_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 2.7 V \u0e1b\u0e3508-11",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/25_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 HYBRID HIG ALTIS \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/96_1.jpg"
+        },
+        {
+            "model": "NISSAN JUKE 1.6 V \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/23_1.jpg"
+        },
+        {
+            "model": "TOYOTA VIOS 1.5 E \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 14km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/21_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC S \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/20_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC SV \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/19_1.jpg"
+        },
+        {
+            "model": "BENZ SLK-CLASS 200 CGI R172 \u0e1b\u0e3511-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/18_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 GR SPORT ALTIS \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/17_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.4 ES \u0e1b\u0e3517-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/16_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E300 BLUETEC HYBRID W212 \u0e1b\u0e3510-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/15_1.jpg"
+        },
+        {
+            "model": "BENZ SLK-CLASS 200 R172 \u0e1b\u0e3511-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/14_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.6 G ALTIS \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/13_1.jpg"
+        },
+        {
+            "model": "SUBARU XV 2.0i CROSSTREK \u0e1b\u0e3512-17",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/12_1.jpg"
+        },
+        {
+            "model": "BMW SERIES 4 430i CONVERTIBLE M S F33 \u0e1b\u0e3513-20",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/11_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 2.8 V 4WD \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/02_1.jpg"
+        },
+        {
+            "model": "LEXUS RX 270 \u0e1b\u0e3508-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/10_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC V \u0e1b\u0e3508-14",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 160,
+            "year": 2010,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/09_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C200 CGI W204 \u0e1b\u0e3507-14",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/08_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E200 COUPE CGI W207 \u0e1b\u0e3509-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/07_1.jpg"
+        },
+        {
+            "model": "NISSAN X-TRAIL 2.0V 4WD \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/06_1.jpg"
+        },
+        {
+            "model": "MG EP EV WAGON \u0e1b\u0e3520-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 290,
+            "year": 2023,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/05_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 2.8 V 2WD \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/03_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 High Connect \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 4Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/01_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.4 EL 4WD \u0e1b\u0e3517-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/318/00_1.jpg"
+        },
+        {
+            "model": "VOLVO S60 1.6T \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/99_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 E FC-FK \u0e1b\u0e3516-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/98_1.jpg"
+        },
+        {
+            "model": "HONDA HRV 1.8 E LIMITED \u0e1b\u0e3514-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/97_1.jpg"
+        },
+        {
+            "model": "HYUNDAI H1 ELITE \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/51_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 Sports STD \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 5Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/95_1.jpg"
+        },
+        {
+            "model": "FORD RANGER 2.0 RAPTOR X 4WD DOU DOUBLE CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/94_1.jpg"
+        },
+        {
+            "model": "NISSAN ALMERA 1.2 E SPORTECH \u0e1b\u0e3511-20",
+            "description": "Sedan, 5 People, 13km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/93_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 S FB \u0e1b\u0e3512-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/92_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC SV \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/90_1.jpg"
+        },
+        {
+            "model": "BENZ GLA-CLASS 250 W156 \u0e1b\u0e3514-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/89_1.jpg"
+        },
+        {
+            "model": "TOYOTA INNOVA 2.8 G \u0e1b\u0e3516-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/88_1.jpg"
+        },
+        {
+            "model": "MAZDA CX-5 2.5 TURBO SP \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/87_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 CAB-4 1.9 L DA X-ser CAB-4 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/85_1.jpg"
+        },
+        {
+            "model": "TOYOTA AVANZA 1.5 G \u0e1b\u0e3511-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/84_1.jpg"
+        },
+        {
+            "model": "NISSAN X-TRAIL 2.0E HYBRID \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/83_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 12-19 2.5 S SPACECAB 12-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/82_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 E SPORT ALTIS \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/81_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC RS \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/80_1.jpg"
+        },
+        {
+            "model": "NISSAN ALMERA 1.0 E \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Sedan, 5 People, 13km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/78_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI MIRAGE 1.2 GLX \u0e1b\u0e3512-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/77_1.jpg"
+        },
+        {
+            "model": "FORD RANGER 2.2 XL+ HI-RIDER OPE HI-RIDER OPEN CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/76_1.jpg"
+        },
+        {
+            "model": "KIA CARNIVAL CEO CARNIVAL",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 100,
+            "year": 2004,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/75_1.jpg"
+        },
+        {
+            "model": "NISSAN ALMERA 1.0 S \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Sedan, 5 People, 13km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/74_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.5 GT \u0e1b\u0e3508-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/73_1.jpg"
+        },
+        {
+            "model": "FORD EVEREST 2.2 TITANIUM PLUS \u0e1b\u0e3515-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/72_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 12-19 1.9 Ddi Z HI-LANDER CAB-4 12-1",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/71_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 S ALTIS \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/70_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C300 BLUETEC HYBRID W205 \u0e1b\u0e3514-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/69_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA3 2.0 R \u0e1b\u0e3505-10 4Dr",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/68_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 SPORT \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/67_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.4 GT Premium \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/65_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.5 GT \u0e1b\u0e3508-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/63_1.jpg"
+        },
+        {
+            "model": "HONDA CIVIC 1.8 EL FC-FK \u0e1b\u0e3516-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/62_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 E \u0e1b\u0e3513-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/61_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E200 CGI W212 \u0e1b\u0e3510-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/60_1.jpg"
+        },
+        {
+            "model": "TOYOTA VIOS 1.5 E \u0e1b\u0e3507-13",
+            "description": "Compact car, 4 People, 14km / litre, Automatic",
+            "price": 160,
+            "year": 2010,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/59_1.jpg"
+        },
+        {
+            "model": "MG 3 1.5 X SUNROOF \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/58_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 2.4 EL i-VTEC \u0e1b\u0e3513-19",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/57_1.jpg"
+        },
+        {
+            "model": "TOYOTA CHR HV Mid \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/56_1.jpg"
+        },
+        {
+            "model": "TOYOTA INNOVA 2.8 V \u0e1b\u0e3516-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/55_1.jpg"
+        },
+        {
+            "model": "MG MAXUS 9 V SUPER LUXURY \u0e1b\u0e3523-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 290,
+            "year": 2023,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/54_1.jpg"
+        },
+        {
+            "model": "HONDA HRV 1.8 EL \u0e1b\u0e3514-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/53_1.jpg"
+        },
+        {
+            "model": "TOYOTA CHR HV Mid \u0e1b\u0e3517-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/49_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 3.0 V \u0e1b\u0e3505-08",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 110,
+            "year": 2005,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/48_1.jpg"
+        },
+        {
+            "model": "BMW SERIES 5 520d F10 \u0e1b\u0e3510-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/47_1.jpg"
+        },
+        {
+            "model": "HYUNDAI STARIA 2.2 PREMIUM STARIA",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/46_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.4 GT \u0e1b\u0e3515-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/45_1.jpg"
+        },
+        {
+            "model": "HONDA CITY 1.5 S i-VTEC \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/44_1.jpg"
+        },
+        {
+            "model": "FORD EVEREST 3.2 TITANIUM PLUS 4W \u0e1b\u0e3515-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/308/47_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.6 G ALTIS \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/42_1.jpg"
+        },
+        {
+            "model": "HYUNDAI H1 TOURING \u0e1b\u0e3508-18",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/41_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E350e 2.0 EXCLUSIVE W213 \u0e1b\u0e3516-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/40_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 J STANDARD CAB STANDARD CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/38_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 ENTRY \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/36_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 High Connect \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 4Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/35_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 J PLUS PRERUNNER PRERUNNER SMART CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 240,
+            "year": 2018,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/34_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 E DOUBLE CAB DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/33_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 ENTRY Z EDITION  SMART CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 260,
+            "year": 2020,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/32_1.jpg"
+        },
+        {
+            "model": "TOYOTA INNOVA 2.0 G \u0e1b\u0e3511-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/31_1.jpg"
+        },
+        {
+            "model": "FORD RANGER 2.0 TURBO WILDTRAK H HI-RIDER DOUBLE CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/30_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 ENTRY Z EDITION  SMART CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 270,
+            "year": 2021,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/29_1.jpg"
+        },
+        {
+            "model": "FORD EVEREST 2.0 TURBO TITANIUM P \u0e1b\u0e3515-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/28_1.jpg"
+        },
+        {
+            "model": "TOYOTA ALPHARD 2.5 \u0e1b\u0e3515-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/27_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 ENTRY \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/26_1.jpg"
+        },
+        {
+            "model": "HONDA CITY 1.0 S+ \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 (5D)",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/25_1.jpg"
+        },
+        {
+            "model": "HONDA ACCORD 2.4 EL i-VTEC \u0e1b\u0e3503-08",
+            "description": "Sedan, 5 People, 12km / litre, Automatic",
+            "price": 110,
+            "year": 2005,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/23_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.5 GT \u0e1b\u0e3508-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/24_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI PAJERO SPORT 2.5 GT \u0e1b\u0e3508-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/22_1.jpg"
+        },
+        {
+            "model": "TOYOTA YARIS ECO 1.2 ENTRY \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/21_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C200 CGI W204 \u0e1b\u0e3507-14",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/20_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 02-12 2.5 SLX i-TEQ SPACECAB 02-12",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/19_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 E DOUBLE CAB DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 210,
+            "year": 2015,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/18_1.jpg"
+        },
+        {
+            "model": "FORD RANGER 2.0 TURBO LIMITED HI HI-RIDER DOUBLE CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/17_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.4 EL 4WD \u0e1b\u0e3517-23",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/16_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C220d AVANTGARDE W205 \u0e1b\u0e3514-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/15_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.8 4WD DOUBLE CAB ROCCO DOUBLE CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/14_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 02-12 3.0 i-TEQ HI-LANDER SPACECAB 0",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/13_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 E \u0e41\u0e23\u0e01",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 110,
+            "year": 2005,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/12_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E200 COUPE CGI W207 \u0e1b\u0e3509-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/11_1.jpg"
+        },
+        {
+            "model": "BMW X3 2.0d HIGHLINE F25 \u0e1b\u0e3510-18",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/315/78_1.jpg"
+        },
+        {
+            "model": "HONDA CITY 1.5 S i-VTEC \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/10_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX REVO 2.4 MID Z EDITION SM SMART CAB",
+            "description": "Pickup truck, 5 People, 10km / litre, Manual",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/09_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX VIGO 2.5 J STANDARD CAB STANDARD CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 130,
+            "year": 2007,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/08_1.jpg"
+        },
+        {
+            "model": "TOYOTA HILUX VIGO 2.5 E PRERUNNER SMAR PRERUNNER SMART CAB",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/78_1.jpg"
+        },
+        {
+            "model": "NISSAN TEANA 2.0 XL NAVI \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/07_1.jpg"
+        },
+        {
+            "model": "BMW SERIES 3 316i F30 \u0e1b\u0e3512-20",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/06_1.jpg"
+        },
+        {
+            "model": "VOLVO S60 1.6T \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/05_1.jpg"
+        },
+        {
+            "model": "MAZDA CX-5 2.0 S \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/01_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E250 COUPE W207 \u0e1b\u0e3509-16",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/04_1.jpg"
+        },
+        {
+            "model": "KIA GRAND CARNIVAL 2.2 SXL \u0e1b\u0e3521-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/03_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 SPACECAB 1.9 Ddi L D SPACECAB 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 270,
+            "year": 2021,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/02_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 CAB-4 1.9 Ddi L DA CAB-4 19-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 290,
+            "year": 2023,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/01_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.6 G ALTIS \u0e2b\u0e19\u0e49\u0e32\u0e41\u0e1a\u0e19 \u0e1b\u0e3508-1",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 150,
+            "year": 2009,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/317/00_1.jpg"
+        },
+        {
+            "model": "SUZUKI XL7 1.5 GLX \u0e1b\u0e3520-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/99_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 E ALTIS \u0e2b\u0e19\u0e49\u0e32\u0e41\u0e1a\u0e19 \u0e1b\u0e3508-1",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/98_1.jpg"
+        },
+        {
+            "model": "FIAT 695 695 695",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/97_1.jpg"
+        },
+        {
+            "model": "VOLVO S60 1.6T \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/96_1.jpg"
+        },
+        {
+            "model": "BENZ GLA-CLASS 200 W156 \u0e1b\u0e3514-21",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/95_1.jpg"
+        },
+        {
+            "model": "SUZUKI SWIFT ECO 1.2 GL \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/94_1.jpg"
+        },
+        {
+            "model": "TOYOTA FORTUNER 2.7 V \u0e1b\u0e3511-15",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 190,
+            "year": 2013,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/93_1.jpg"
+        },
+        {
+            "model": "BENZ A-CLASS A200 AMG DYNAMIC W177 \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/92_1.jpg"
+        },
+        {
+            "model": "TOYOTA COMMUTER \u0e1b\u0e3505-19 (2700cc)",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 140,
+            "year": 2008,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/315/37_1.jpg"
+        },
+        {
+            "model": "MAZDA CX-5 2.5 S \u0e1b\u0e3513-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/89_1.jpg"
+        },
+        {
+            "model": "HONDA ODYSSEY 2.4 EL (i-VTEC) \u0e1b\u0e3508-16",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/88_1.jpg"
+        },
+        {
+            "model": "TOYOTA COROLLA ALTIS 1.8 E ALTIS \u0e1b\u0e3514-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 200,
+            "year": 2014,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/86_1.jpg"
+        },
+        {
+            "model": "KIA GRAND CARNIVAL 2.2 EX \u0e1b\u0e3521-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/85_1.jpg"
+        },
+        {
+            "model": "TOYOTA MAJESTY 2.8 PREMIUM \u0e1b\u0e3519-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 260,
+            "year": 2020,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/84_1.jpg"
+        },
+        {
+            "model": "VOLVO V60 2.0 V60 \u0e1b\u0e3512-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 230,
+            "year": 2017,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/83_1.jpg"
+        },
+        {
+            "model": "HONDA CRV 2.0 E (i-VTEC) \u0e1b\u0e3512-17",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 220,
+            "year": 2016,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/82_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 12-19 2.5 L SPACECAB 12-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/81_1.jpg"
+        },
+        {
+            "model": "BENZ C-CLASS C300 BLUETEC HYBRID  W205 \u0e1b\u0e3514-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/80_1.jpg"
+        },
+        {
+            "model": "HONDA HRV 1.5 RS eHEV \u0e1b\u0e3521-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/79_1.jpg"
+        },
+        {
+            "model": "HONDA JAZZ 1.5 i-VTEC V (AS) \u0e1b\u0e3508-14",
+            "description": "Compact car, 4 People, 15km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/77_1.jpg"
+        },
+        {
+            "model": "MITSUBISHI XPANDER 1.5 CROSS \u0e1b\u0e3518-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/76_1.jpg"
+        },
+        {
+            "model": "MAZDA MAZDA2 1.3 High Connect \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19 4Dr",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 3,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/75_1.jpg"
+        },
+        {
+            "model": "BENZ E-CLASS E220d 2.0 AMG DYNAMI W213 \u0e1b\u0e3516-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Luxury Sedan, 4 People, 10km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 5,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/74_1.jpg"
+        },
+        {
+            "model": "NISSAN JUKE 1.6 V \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 210,
+            "year": 2015,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/73_1.jpg"
+        },
+        {
+            "model": "ISUZU D-MAX 12-19 2.5 S CAB-4 12-19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 180,
+            "year": 2012,
+            "quantity": 4,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/72_1.jpg"
+        },
+        {
+            "model": "FORD EVEREST 2.2 TITANIUM PLUS \u0e1b\u0e3515-22",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 240,
+            "year": 2018,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/71_1.jpg"
+        },
+        {
+            "model": "BENZ GLC-CLASS 300e AMG DYNAMIC W253 \u0e1b\u0e3514-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 280,
+            "year": 2022,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/70_1.jpg"
+        },
+        {
+            "model": "NISSAN MARCH 1.2 S \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Hatchback, 5 People, 16km / litre, Automatic",
+            "price": 170,
+            "year": 2011,
+            "quantity": 1,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/69_1.jpg"
+        },
+        {
+            "model": "MINI COUNTRYMAN COOPER S \u0e1b\u0e3510-\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19",
+            "description": "Standard vehicle, 5 People, 12km / litre, Automatic",
+            "price": 250,
+            "year": 2019,
+            "quantity": 2,
+            "image": "https://imgc1.taladrod.com/c/cidx/012/316/68_1.jpg"
+        }
+    ]
+}
