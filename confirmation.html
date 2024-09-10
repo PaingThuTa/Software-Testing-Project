@@ -15,11 +15,7 @@
 
 <body>
     <header class="header" data-header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="./assets/images/logo.svg" alt="Ridex logo">
-            </a>
-        </div>
+        
     </header>
     <div class="container">
         <h3 class="getquotetext">Reservation</h3>
@@ -72,7 +68,6 @@
             </div>
         </div>
     </dialog>
-    <script src="./assets/js/confirmation.js"></script> <!-- Link to your confirmation.js file -->
     <script>
         $(function () {
             $("#startDate, #endDate").datepicker({
@@ -113,7 +108,7 @@
             const carPrice = parseFloat(document.getElementById('carPrice').textContent);
             const start = new Date(startDate);
             const end = new Date(endDate);
-            if (startDate && endDate && !isNaN(carPrice)&&start.getTime() < end.getTime()) {
+            if (startDate && endDate && start.getTime() < end.getTime()) {
                 const start = new Date(startDate);
                 const end = new Date(endDate);
                 const timeDiff = Math.abs(end - start);
