@@ -132,16 +132,6 @@
             const totalDays = document.getElementById('totalDays').textContent;
             const totalCost = document.getElementById('totalCost').textContent;
 
-            const booking = {
-                startDate,
-                endDate,
-                carModel,
-                carDescription,
-                carPrice,
-                totalDays,
-                totalCost,
-                status: "pending"
-            };
 
             const start = new Date(startDate);
             const end = new Date(endDate);
@@ -149,14 +139,7 @@
             if (start.getTime() === end.getTime()||start.getTime() > end.getTime()) {
                 alert("Choose start date and end date properly");
             } else if (startDate && endDate && !isNaN(carPrice)) {
-                // Retrieve existing bookings from local storage
-                let bookings = JSON.parse(localStorage.getItem('bookings')) || [];
 
-                // Add the new booking to the array
-                bookings.push(booking);
-
-                // Save the updated bookings array back to local storage
-                localStorage.setItem('bookings', JSON.stringify(bookings));
 
                 // Show the confirmation dialog
                 const dialog = document.getElementById('confirmationDialog');

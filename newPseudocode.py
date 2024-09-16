@@ -18,7 +18,7 @@ def load_cars(file_path):
 def display_all_cars(cars):
     if not cars:
         print("No cars available.")
-        return
+    
     for car in cars:
         print(f"Model: {car['model']}")
         print(f"Description: {car['description']}")
@@ -87,7 +87,7 @@ def confirm_booking(cars, model_name, start_date, end_date):
         print(f"No car found with model: {model_name}")
 
 # Example usage:
-file_path = '/Users/codysecret1/Documents/Software-Testing-Project/assets/data/cars.json'
+file_path = 'C:\\software testing\\aftermid\\Software-Testing-Project\\Software-Testing-Project\\assets\\data\\cars.json'
 cars = load_cars(file_path)
 
 if cars:
