@@ -15,7 +15,7 @@
 
 <body>
     <header class="header" data-header>
-        
+
     </header>
     <div class="container">
         <h3 class="getquotetext">Reservation</h3>
@@ -63,7 +63,7 @@
                 </div>
                 <h2>Thank You!</h2>
                 <p>Your booking has been confirmed. Enjoy your ride!</p>
-                <p id="carDetails"></p>
+                <p id="confirmationMessage"></p>
                 <button onclick="closeConfirmation()" class="ok-button">OK</button>
             </div>
         </div>
@@ -102,19 +102,26 @@
             return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
         }
 
+        function calculateDays(startDate, endDate) {
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            if (startDate && endDate && start.getTime() < end.getTime()) {
+                const timeDiff = Math.abs(end - start);
+                const totalDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                return totalDays;
+            } else {
+                return null;
+            }
+        }
+
         function calculateCost() {
             const startDate = document.getElementById('startDate').value;
             const endDate = document.getElementById('endDate').value;
             const carPrice = parseFloat(document.getElementById('carPrice').textContent);
-            const start = new Date(startDate);
-            const end = new Date(endDate);
-            if (startDate && endDate && start.getTime() < end.getTime()) {
-                const start = new Date(startDate);
-                const end = new Date(endDate);
-                const timeDiff = Math.abs(end - start);
-                const totalDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-                const totalCost = totalDays * carPrice;
 
+            const totalDays = calculateDays(startDate, endDate);
+            if (totalDays !== null) {
+                const totalCost = totalDays * carPrice;
                 document.getElementById('totalDays').textContent = totalDays;
                 document.getElementById('totalCost').textContent = totalCost.toFixed(2);
             } else {
@@ -123,26 +130,19 @@
         }
 
         function confirmBooking() {
-
             const startDate = document.getElementById('startDate').value;
             const endDate = document.getElementById('endDate').value;
             const carModel = document.getElementById('carModel').textContent;
-            const carDescription = document.getElementById('carDescription').textContent;
-            const carPrice = document.getElementById('carPrice').textContent;
             const totalDays = document.getElementById('totalDays').textContent;
-            const totalCost = document.getElementById('totalCost').textContent;
 
+            const totalDaysCalculated = calculateDays(startDate, endDate);
 
-            const start = new Date(startDate);
-            const end = new Date(endDate);
-
-            if (start.getTime() === end.getTime()||start.getTime() > end.getTime()) {
+            if (totalDaysCalculated === null) {
                 alert("Choose start date and end date properly");
-            } else if (startDate && endDate && !isNaN(carPrice)) {
-
-
-                // Show the confirmation dialog
+            } else if (startDate && endDate && !isNaN(totalDays)) {
                 const dialog = document.getElementById('confirmationDialog');
+                const confirmationMessage = `Booking confirmed for ${carModel} from ${startDate} to ${endDate} for ${totalDays} days.`;
+                document.getElementById('confirmationMessage').textContent = confirmationMessage;
                 dialog.showModal();
             } else {
                 alert("You can't confirm booking without providing all the details");
@@ -153,6 +153,7 @@
             const dialog = document.getElementById('confirmationDialog');
             dialog.close();
         }
+
     </script>
 </body>
 

@@ -71,20 +71,14 @@ def calculate_cost(cars, model_name, start_date, end_date):
         return 0
 
 # Confirm booking by reducing the quantity of the booked car
-def confirm_booking(cars, model_name, start_date, end_date):
+def confirm_booking( model_name,start_date, end_date):
     days = calculate_days(start_date, end_date)
-    if days is None:
-        return
 
-    car = search_car_by_model(cars, model_name)
-    if car:
-        if car['quantity'] > 0:
-            print(f"Booking confirmed for {model_name} from {start_date} to {end_date} for {days} days.")
-            car['quantity'] -= 1
-        else:
-            print(f"Sorry, {model_name} is not available.")
+    if days is None:
+        print("Choose start date and end date properly")
+
     else:
-        print(f"No car found with model: {model_name}")
+        print(f"Booking confirmed for {model_name} from {start_date} to {end_date} for {days} days.")
 
 # Example usage:
 file_path = 'C:\\software testing\\aftermid\\Software-Testing-Project\\Software-Testing-Project\\assets\\data\\cars.json'
