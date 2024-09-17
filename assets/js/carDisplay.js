@@ -1,11 +1,22 @@
 // Display car count
-function updateCarCount(count) {
+function total_available_cars(count) {
     const carCountElement = document.getElementById('car-count');
     carCountElement.textContent = count;
 }
 
+function getRentButton(car) {
+    if (car.quantity === 0) {
+        return `<button class="btn" onclick="showOutOfStockModal('${car.model}')">Rent now</button>`;
+    } else {
+        return `<button class="btn" onclick="location.href='/confirmation.html?car=${encodeURIComponent(car.model)}&price=${car.price}&description=${encodeURIComponent(car.description)}'">Rent now</button>`;
+    }
+}
+function showOutOfStockModal(model) {
+    alert(`The car model ${model} is out of stock.`);
+}
+
 // Display cars on the page
-function displayCars(cars) {
+function display_all_cars(cars) {
     const carListContainer = document.getElementById('featured-car-list');
     carListContainer.innerHTML = ''; // Clear any existing content
 
@@ -26,7 +37,7 @@ function displayCars(cars) {
                         </ul>
                         <div class="card-price-wrapper">
                             <p class="card-price"><strong>$${car.price}</strong> / month</p>
-                            <button class="btn" onclick="location.href='/confirmation.html?car=${encodeURIComponent(car.model)}&price=${car.price}&description=${encodeURIComponent(car.description)}'">Rent now</button>
+                            ${getRentButton(car)}
                         </div>
                     </div>
                 </div>
@@ -43,8 +54,8 @@ fetch('/assets/data/cars.json')
   .then(response => response.json())
   .then(data => {
     allCars = data.cars;
-    displayCars(allCars);
-    updateCarCount(allCars.length);
+    display_all_cars(allCars);
+    total_available_cars(allCars.length);
   })
   .catch(error => console.error('Error fetching car data:', error));
 
@@ -52,6 +63,6 @@ fetch('/assets/data/cars.json')
 document.getElementById('carSearchInput').addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
     const filteredCars = allCars.filter(car => car.model.toLowerCase().includes(searchTerm) || car.description.toLowerCase().includes(searchTerm));
-    displayCars(filteredCars);
-    updateCarCount(filteredCars.length);
+    display_all_cars(filteredCars);
+    total_available_cars(filteredCars.length);
 });

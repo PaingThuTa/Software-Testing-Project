@@ -14,6 +14,12 @@ def load_cars(file_path):
         print("Error: JSON decoding failed.")
         return None
 
+def getRentButton(car):
+    if car['quantity']==0:
+        print(f"The car model {car['model']}  is out of stock.")
+    else:
+        print(f"Rent {car['model']}")
+
 # Display all cars available
 def display_all_cars(cars):
     if not cars:
@@ -41,7 +47,6 @@ def search_car_by_model(cars, model_name):
     for car in cars:
         if car['model'].lower() == model_name.lower():
             return car
-    print(f"No car found with model: {model_name}")
     return None
 
 # Calculate the number of days between two dates
@@ -99,4 +104,4 @@ if cars:
     # Search for a car, calculate the cost, and confirm the booking
     
     calculate_cost(cars, car_model, start_date, end_date)
-    confirm_booking(cars, car_model, start_date, end_date)
+    confirm_booking( car_model, start_date, end_date)

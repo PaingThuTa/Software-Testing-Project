@@ -51,8 +51,8 @@
         </div>
     </div>
     <div class="buttons">
-        <button type="button" onclick="calculateCost()" class="button">Calculate Cost</button>
-        <button type="button" onclick="calculateCost(),confirmBooking()" class="button1">Confirm Booking</button>
+        <button type="button" onclick="calculate_cost()" class="button">Calculate Cost</button>
+        <button type="button" onclick="calculate_cost(),confirm_booking()" class="button1">Confirm Booking</button>
     </div>
     </div>
     <dialog id="confirmationDialog">
@@ -102,7 +102,7 @@
             return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
         }
 
-        function calculateDays(startDate, endDate) {
+        function calculate_days(startDate, endDate) {
             const start = new Date(startDate);
             const end = new Date(endDate);
             if (startDate && endDate && start.getTime() < end.getTime()) {
@@ -114,12 +114,12 @@
             }
         }
 
-        function calculateCost() {
+        function calculate_cost() {
             const startDate = document.getElementById('startDate').value;
             const endDate = document.getElementById('endDate').value;
             const carPrice = parseFloat(document.getElementById('carPrice').textContent);
 
-            const totalDays = calculateDays(startDate, endDate);
+            const totalDays = calculate_days(startDate, endDate);
             if (totalDays !== null) {
                 const totalCost = totalDays * carPrice;
                 document.getElementById('totalDays').textContent = totalDays;
@@ -129,13 +129,13 @@
             }
         }
 
-        function confirmBooking() {
+        function confirm_booking() {
             const startDate = document.getElementById('startDate').value;
             const endDate = document.getElementById('endDate').value;
             const carModel = document.getElementById('carModel').textContent;
             const totalDays = document.getElementById('totalDays').textContent;
 
-            const totalDaysCalculated = calculateDays(startDate, endDate);
+            const totalDaysCalculated = calculate_days(startDate, endDate);
 
             if (totalDaysCalculated === null) {
                 alert("Choose start date and end date properly");
